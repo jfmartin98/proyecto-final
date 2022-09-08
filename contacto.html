@@ -58,17 +58,42 @@
     <h2>Al servicio de la gente.</h2><br>
     <h2>Contacto</h2>
     <main>
-        <section class="formulario"> 
-            Nombre <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"><br>
-            Apellido <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su apellido"><br>
-            Email <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su email"><br>
-            <label for="sexo"> </label> Hombre<input type="radio" name="sexo" value="Hombre">Mujer <input type="radio" name="sexo" value="Mujer"><br>
-            <label for="Consulta">Consulta </label><br>
-            <textarea name="Consulta " required placeholder="Escriba su consulta" id="" cols="28" rows="6"></textarea><br>
-            <input class="botons" type="submit" value="Enviar">
-            <input class="botons" type="reset"><br><br>
+        <section class="d-flex justify-content-center">
+            <div class="card col-sm-6 p-3">
+                
+                <div class="mb-2">
+                    <form action="">
+                        <div class="mb-2">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Escriba su nombre">
+                        </div>
+                        <div class="mb-2">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Escriba su apellido">
+                        </div>
+                        <div class="mb-2">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Escriba su email">
+                        </div>
+                        <div class="mb-2">
+                            <label for="genero">Genero</label>
+                            <input type="radio" name="genero" id="masculino">Masculino
+                            <input type="radio" name="genero" id="femenino">Femenino
+                        </div>
+                        <div class="mb-2">
+                            <label for="consulta">Consulta</label>
+                            <textarea name="consulta" id="consulta" class="form-control" placeholder="Escriba aqui su consulta"></textarea>
+                        </div>
+                        <div class="mb-2">
+                            <button class="btn btn-primary">Enviar</button>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
         </section>
-    </main>
+    </main><br><br>
     <footer>
         <p class="derechos">Derechos reservados</p>
         <div class="redes" ></div>    
