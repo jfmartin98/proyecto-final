@@ -167,3 +167,14 @@ input:hover{
 textarea:hover{
     background-color:#ccdfdf ;
 }
+iframe{
+    margin: 2px;
+    padding: 2px;
+}
+.v1{
+    margin: auto;
+    text-align: center;
+    padding: 20px 12px;
+    display: grid;
+    justify-content: center;
+}
