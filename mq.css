@@ -8,4 +8,10 @@
         grid-column: 7 / 8;
         cursor: pointer;
     }
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
 }

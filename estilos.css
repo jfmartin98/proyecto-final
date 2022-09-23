@@ -229,9 +229,59 @@ a{
     margin: 10px;
     text-decoration: underline;
 }
-footer{
-    background-color:#349595;
+
+.pie-pagina{
+    width: 100%;
+    background-color: #1291c3;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: rgb(13, 13, 13);
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social i{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ccdfdf;
+    margin-right: 10px;
+    background-color: #0d2033;
     text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social i:hover{
+    color:#2196f3;
+}
+.pie-pagina .grupo-2{
+    background-color:#1291c3;
+    padding: 15px 10px;
+    text-align: center;
+    color: #000;
 }
 .navbar {
     border: 1px solid black;
